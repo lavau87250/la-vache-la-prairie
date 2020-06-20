@@ -12,25 +12,16 @@ header
   right: 0px;
   background-color: white;
   height: 182px;
-}
-
-header *
-{
-  margin : 0px;
-}
-
-header img
-{
-  position : fixed;
-  opacity: 50%;
+  background-image: url("fond.jpg");
 }
 
 header p
 {
   font-weight : bold;
-  z-index : 2;
+  margin : 0px;
   margin-left: 20px;
   margin-right: 20px;
+  color : black;
 }
 
 nav
@@ -54,4 +45,12 @@ footer
 {
      background-color : silver;
      padding: 0px;
+}
+
+footer img
+{
+     width : 60px;
+     height : 60px;
+     display : inline-block;
+     border-radius : 10px;
 }
