@@ -87,6 +87,15 @@ nav a
      background-image:linear-gradient(to right, blue 0%, white 90%);
 }
 
+#index
+{
+     background-image:linear-gradient(to right, silver 0%, white 50%);
+}
+#index:hover
+{
+     background-image:linear-gradient(to right, silver 0%, white 90%);
+}
+
 footer
 {
      background-color : silver;
@@ -119,6 +128,8 @@ section
      position : fixed;
      left : 300px;
      top : 182px;
+     overflow : scroll;
+     bottom : 20px;
 }
 
 article
@@ -154,4 +165,13 @@ article .contenu
      border-radius : 10px;
      padding : 10px;
      font-size : 20px;
+}
+
+article .images img
+{
+     width : auto;
+     height : auto;
+     margin : auto;
+     margin : 10px;
+     max-width : 680px;
 }
