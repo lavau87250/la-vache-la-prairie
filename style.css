@@ -45,55 +45,92 @@ nav a
 #tracteur
 {
      background-image:linear-gradient(to right, red 0%, white 50%);
+     transition-property: background-image;
+     transition-duration: 1s;
 }
 #tracteur:hover
 {
      background-image:linear-gradient(to right, red 0%, white 90%);
+     transition-property: background-image;
+     transition-duration: 1s;
 }
 
 #benne
 {
      background-image:linear-gradient(to right, orange 0%, white 50%);
+     transition-property: background-image;
+     transition-duration: 1s;
 }
 #benne:hover
 {
      background-image:linear-gradient(to right, orange 0%, white 90%);
+     transition-property: background-image;
+     transition-duration: 1s;
 }
 
 #materiel
 {
      background-image:linear-gradient(to right, yellow 0%, white 50%);
+     transition-property: background-image;
+     transition-duration: 1s;
 }
 #materiel:hover
 {
      background-image:linear-gradient(to right, yellow 0%, white 90%);
+     transition-property: background-image;
+     transition-duration: 1s;
 }
 
 #champs
 {
      background-image:linear-gradient(to right, green 0%, white 50%);
+     transition-property: background-image;
+     transition-duration: 1s;
 }
 #champs:hover
 {
      background-image:linear-gradient(to right, green 0%, white 90%);
+     transition-property: background-image;
+     transition-duration: 1s;
 }
 
 #nouveaux
 {
      background-image:linear-gradient(to right, blue 0%, white 50%);
+     transition-property: background-image;
+     transition-duration: 1s;
 }
 #nouveaux:hover
 {
      background-image:linear-gradient(to right, blue 0%, white 90%);
+     transition-property: background-image;
+     transition-duration: 1s;
 }
 
 #index
 {
      background-image:linear-gradient(to right, silver 0%, white 50%);
+     transition-property: background-image;
+     transition-duration: 1s;
 }
 #index:hover
 {
      background-image:linear-gradient(to right, silver 0%, white 90%);
+     transition-property: background-image;
+     transition-duration: 1s;
+}
+
+#liens
+{
+     background-image:linear-gradient(to right, aqua 0%, white 50%);
+     transition-property: background-image;
+     transition-duration: 1s;
+}
+#liens:hover
+{
+     background-image:linear-gradient(to right, aqua 0%, white 90%);
+     transition-property: background-image;
+     transition-duration: 1s;
 }
 
 footer
